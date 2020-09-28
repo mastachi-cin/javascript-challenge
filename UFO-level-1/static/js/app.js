@@ -34,12 +34,13 @@ filterBtn.on("click", function() {
     // Get the value property of the input element
     var inputDate = inputField.property("value");
 
-    // Filter by input date
-    var filteredSighting = tableData.filter(sightingRow => sightingRow.datetime === inputDate);
-
-    console.log(tableData);
-    console.log(inputDate);
-    console.log(filteredSighting);
+    // Filter by input date only if not blank
+    if (inputDate != "") {
+        var filteredSighting = tableData.filter(sightingRow => sightingRow.datetime === inputDate);
+    }
+    else {
+        var filteredSighting = tableData;
+    }
 
     // Build table with filtered rows
     buildTable(filteredSighting);
