@@ -7,7 +7,7 @@ Reports are displayed on a dynamically built table from the file data.js, each r
 
 Reports can be filtered by date in the format D/M/YYYY.
 
-![alt text](https://github.com/mastachi-cin/javascript-challenge/UFO-level-1/static/images/ufo_level_1.png "UFO Level 1")
+![UFO Level 1](UFO-level-1/static/images/ufo_level_1.png)
 
 ## UFO-level-2: Multiple Search Categories
 
@@ -19,5 +19,5 @@ Multiple filters can be set and search for UFO sightings using the following cri
 4. City
 5. Shape
 
-![alt text](https://github.com/mastachi-cin/javascript-challenge/UFO-level-1/static/images/ufo_level_2.png "UFO Level 2")
+![UFO Level 2](UFO-level-2/static/images/ufo_level_2.png)
 
